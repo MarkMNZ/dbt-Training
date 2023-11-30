@@ -7,6 +7,6 @@ sources:
     schema: jaffle_shop
     tables:
         - name: customers
-          description: One record per customer.
+          description: The raw customer data.
         - name: orders
-          description: One record per order. Includes cancelled and deleted orders.
+          description: The raw orders data.
